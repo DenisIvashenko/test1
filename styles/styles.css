@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Impact";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/pt-sans-regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/pt-sans-regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+html {
+    height: 100%;
+    width: auto;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: "Impact";
+    font-size: 24px;
+    line-height: 28px;
+    color: #201714;
+    background-color: #F5F5F5;
+}
+
+.page-container {
+    margin-top: 153px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.title {
+    position: relative;
+    font-size: 40px;
+    line-height: 49px;
+    color: #201714;
+    margin-top: 153px;
+    margin-left: 160px;
+    margin-bottom: 67px;
+    width: 180px;
+    height: 49px;
+}
+
+.title::before {
+    position: absolute;
+    width: 88px;
+    top: 57px;
+    height: 4px;
+    background-color: #FFCC01;
+    border-radius: 99px;
+    content: "";
+}
+
+.front-button, .back-button {
+    margin-left: 160px;
+}
+
+.navigation-list {
+    display: flex;
+    padding: 0;
+}
+
+.navigation-item {
+    list-style-type: none;
+    margin-right: 32px;
+}
+
+.navigation-link {
+    position: relative;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid #79C800;
+    border-radius: 16px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+    width: 376px;
+    height: 188px;
+}
+
+.navigation-link-back-button {
+    position: relative;
+    box-sizing: border-box;
+    width: 376px;
+    height: 188px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), rgba(121, 200, 0, 0.4);
+    border: 2px solid #79C800;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+}
+
+.image, .image-activ {
+    position: absolute;
+    left: 128px;
+    top: 0;
+}
+
+.button-title {
+    position: absolute;
+    left: 16px;
+    top: 144px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #201714;
+    text-align: left;
+}
+
+.righted {
+    top: 115px;
+}
+
+.decor-image-1 {
+    position: absolute;
+    left: 7px;
+    top: 220px;
+}
+
+.decor-image-2 {
+    position: absolute;
+    left: -6px;
+    top: 700px;
+}
+
+.decor-image-3 {
+    position: absolute;
+    left: 1258px;
+    top: 576px;
+    z-index: -1;
+}
+
+.decor-image-4 {
+    position: absolute;
+    left: 1616px;
+    top: 145px;
+    z-index: -1;
+}
+
+.decor-image-5 {
+    position: absolute;
+    left: 1214px;
+    top: 130px;
+}
+
+
